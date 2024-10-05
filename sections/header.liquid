@@ -1,0 +1,22 @@
+<header>
+  <h1>{{ section.settings.heading }}</h1>
+</header>
+
+{% schema %}
+{
+  "name": "header",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Welcome Home"
+    }
+  ],
+  "presets": [
+    {
+      "name": "header"
+    }   
+  ]
+}
+{% endschema %}
